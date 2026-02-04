@@ -1,0 +1,50 @@
+[
+  {
+    "name": "my_compute_factorial_it",
+    "prototype": "int my_compute_factorial_it(int nb);",
+    "description": "Write an iterative function that returns the factorial of the number given as a parameter.",
+    "task_number": 1
+  },
+  {
+    "name": "my_compute_factorial_rec",
+    "prototype": "int my_compute_factorial_rec(int nb);",
+    "description": "Write a recursive function that returns the factorial of the number given as a parameter.",
+    "task_number": 2
+  },
+  {
+    "name": "my_compute_power_it",
+    "prototype": "int my_compute_power_it(int nb, int p);",
+    "description": "Write an iterative function that returns the first argument raised to the power p, where p is the second argument.",
+    "task_number": 3
+  },
+  {
+    "name": "my_compute_power_rec",
+    "prototype": "int my_compute_power_rec(int nb, int p);",
+    "description": "Write an recursive function that returns the first argument raised to the power p, where p is the second argument.",
+    "task_number": 4
+  },
+  {
+    "name": "my_compute_square_root",
+    "prototype": "int my_compute_square_root(int nb);",
+    "description": "Write a function that returns the square root (if it is a whole number) of the number given as argument. If the square root is not a whole number, the function should return 0",
+    "task_number": 5
+  },
+  {
+    "name": "my_is_prime",
+    "prototype": "int my_is_prime(int nb);",
+    "description": "Write a function that returns 1 if the number is prime and 0 if not.",
+    "task_number": 6
+  },
+  {
+    "name": "my_find_prime_sup",
+    "prototype": "int my_find_prime_sup(int nb);",
+    "description": "Write a function that returns the smallest prime number that is greater than, or equal to, the number given as a parameter.",
+    "task_number": 7
+  },
+  {
+    "name": "count_valid_queens_placements",
+    "prototype": "int count_valid_queens_placements(int n);",
+    "description": "Write a function that compute recursively and returns the number of possible ways to place n queens on a nxn chessboard without them being able to run into each other in a single move.",
+    "task_number": 8
+  }
+]

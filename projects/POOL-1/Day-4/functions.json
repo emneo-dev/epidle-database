@@ -1,0 +1,38 @@
+[
+  {
+    "name": "my_swap",
+    "prototype": "void my_swap(int *a, int *b);",
+    "description": "Write a function that swaps the content of two integers, whose addresses are given as a parameter.",
+    "task_number": 1
+  },
+  {
+    "name": "my_putstr",
+    "prototype": "int my_putstr(char const *str);",
+    "description": "Write a function that displays, one-by-one, the characters of a string. The address of the string’s first character will be found in the pointer passed as a parameter to the function.",
+    "task_number": 2
+  },
+  {
+    "name": "my_strlen",
+    "prototype": "int my_strlen(char const *str);",
+    "description": "Write a function that counts and returns the number of characters found in the string passed as parameter.",
+    "task_number": 3
+  },
+  {
+    "name": "my_evil_str",
+    "prototype": "char *my_evil_str(char *str);",
+    "description": "The goal of this task is to swap each of the string’s characters, two by two. In other words, you will swap the first letter with the last one, the second with the second-to-last and so on. The function should return a pointer to the first character of the reversed string.",
+    "task_number": 4
+  },
+  {
+    "name": "my_getnbr",
+    "prototype": "int my_getnbr(char const *str);",
+    "description": "Write a function that returns a number, sent to the function as a string",
+    "task_number": 5
+  },
+  {
+    "name": "my_sort_int_array",
+    "prototype": "void my_sort_int_array(int *array, int size);",
+    "description": "Write a function that sorts an integer array in ascending order, given a pointer to the first element of the array and its size.",
+    "task_number": 6
+  }
+]

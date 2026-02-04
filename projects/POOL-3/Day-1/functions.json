@@ -1,0 +1,170 @@
+[
+  {
+    "name": "my_succ",
+    "prototype": "my_succ :: Int -> Int",
+    "description": "A function which takes one Int as argument and returns its successor.",
+    "task_number": 1
+  },
+  {
+    "name": "my_is_neg",
+    "prototype": "my_is_neg :: Int -> Bool",
+    "description": "A function which takes one Int as argument and returns True if it’s negative or False otherwise",
+    "task_number": 2
+  },
+  {
+    "name": "my_abs",
+    "prototype": "my_abs :: Int -> Int",
+    "description": "A function which takes one Int as argument and returns it’s absolute value",
+    "task_number": 3
+  },
+  {
+    "name": "my_min",
+    "prototype": "my_min :: Int -> Int -> Int",
+    "description": "A function which takes two Ints as arguments and returns the minimum of the two.",
+    "task_number": 4
+  },
+  {
+    "name": "my_max",
+    "prototype": "my_max :: Int -> Int -> Int",
+    "description": "A function which takes two Ints as arguments and returns the maximum of the two",
+    "task_number": 5
+  },
+  {
+    "name": "my_tuple",
+    "prototype": "my_tuple :: a -> b -> (a, b)",
+    "description": "A function which takes two arguments and return a tuple of those",
+    "task_number": 6
+  },
+  {
+    "name": "my_truple",
+    "prototype": "my_truple :: a -> b -> c -> (a, b, c)",
+    "description": "A function which takes three arguments and return a tuple of those",
+    "task_number": 7
+  },
+  {
+    "name": "my_fst",
+    "prototype": "my_fst :: (a, b) -> a",
+    "description": "A function which takes a tuple as argument and returns its first value.",
+    "task_number": 8
+  },
+  {
+    "name": "my_snd",
+    "prototype": "my_snd :: (a, b ) -> b",
+    "description": "A function which takes a tuple as argument and returns its second value.",
+    "task_number": 9
+  },
+  {
+    "name": "mySwap",
+    "prototype": "mySwap :: (a, b) -> (b, a)",
+    "description": "A function which takes a tuple as argument and returns a new tuple, with it’s two values swaped.",
+    "task_number": 10
+  },
+  {
+    "name": "my_head",
+    "prototype": "my_head :: [a] -> a",
+    "description": "A function which takes a list as argument and returns its first value. If the list is empty, an exception is raised with the function error.",
+    "task_number": 11
+  },
+  {
+    "name": "my_tail",
+    "prototype": "my_tail :: [a] -> [a]",
+    "description": "A function which takes a list as argument and returns a new list without its first element. If the list is empty, an exception is raised with the function error.",
+    "task_number": 12
+  },
+  {
+    "name": "my_length",
+    "prototype": "my_length :: [a] -> Int",
+    "description": "A function which takes a list as argument and returns the number of elements in the list.",
+    "task_number": 13
+  },
+  {
+    "name": "my_nth",
+    "prototype": "my_nth :: [a] -> Int -> a",
+    "description": "A function which takes a list and an Int (N) as argument and returns the element at index N in the list, or an error if the index is too large or negative",
+    "task_number": 14
+  },
+  {
+    "name": "my_take",
+    "prototype": "my_take :: Int -> [a] -> [a]",
+    "description": "A function which takes an Int (N) and a list and returns a list with the Nth first elements of the list. If the list is too short the whole list is returned.",
+    "task_number": 15
+  },
+  {
+    "name": "my_drop",
+    "prototype": "my_drop :: Int -> [a] -> [a]",
+    "description": "A function which takes an Int (n) and a list and returns a list without the N first elements. If the list is too short an empty list is returned.",
+    "task_number": 16
+  },
+  {
+    "name": "my_append",
+    "prototype": "my_append :: [a] -> [a] -> [a]",
+    "description": "A function which takes two lists and returns a new list with the second list appened to the first one.",
+    "task_number": 17
+  },
+  {
+    "name": "my_reverse",
+    "prototype": "my_reverse :: [a] -> [a]",
+    "description": "A function which takes a list and returns a list with all its elements in reverse order.",
+    "task_number": 18
+  },
+  {
+    "name": "my_init",
+    "prototype": "my_init :: [a] -> [a]",
+    "description": "A function which takes a list and returns a list with all its elements except the last one, or an error if the list is empty",
+    "task_number": 19
+  },
+  {
+    "name": "my_last",
+    "prototype": "my_last :: [a] -> a",
+    "description": "A function which takes a list and returns its last element, or an error if the list is empty",
+    "task_number": 20
+  },
+  {
+    "name": "my_zip",
+    "prototype": "my_zip :: [a] -> [b] -> [(a, b)]",
+    "description": "A function which takes two lists as arguments, and returns a list of tuples. The list produced is as long as the shortest list.",
+    "task_number": 21
+  },
+  {
+    "name": "my_unzip",
+    "prototype": "my_unzip :: [(a, b)] -> ([a], [b])",
+    "description": "A function which takes a list of tuples, and return a tuple of lists.",
+    "task_number": 22
+  },
+  {
+    "name": "my_map",
+    "prototype": "my_map :: (a -> b) -> [a] -> [b]",
+    "description": "A function which takes a function and a list, and apply this function to every element of the list",
+    "task_number": 23
+  },
+  {
+    "name": "my_filter",
+    "prototype": "my_filter :: (a -> Bool) -> [a] -> [a]",
+    "description": "A function which takes a predicate (a function returning a boolean value) and a list, and returns a list of all the elements for which the predicate has returned True",
+    "task_number": 24
+  },
+  {
+    "name": "my_foldl",
+    "prototype": "my_foldl :: (b -> a -> b) -> b -> [a] -> b",
+    "description": "A function which takes a function, a starting value and a list as argument. It takes the second argument and the first item of the list and applies the function to them, then feeds the function with this result and the second argument and so on.",
+    "task_number": 25
+  },
+  {
+    "name": "my_foldr",
+    "prototype": "my_foldr :: (a -> b -> b) -> b -> [a] -> b",
+    "description": "Like myFoldl, but from right to left.",
+    "task_number": 26
+  },
+  {
+    "name": "my_partition",
+    "prototype": "my_partition :: (a -> Bool) -> [a] -> ([a] , [a])",
+    "description": "A function which takes a predicate and a list as argument, and returns a tuple of lists, with in the first list the elements for which the predicate returns true, and in the second list the other elements.",
+    "task_number": 27
+  },
+  {
+    "name": "my_quick_sort",
+    "prototype": "my_quick_sort :: (a -> a -> Bool) -> [ a ] -> [ a ]",
+    "description": "A function which takes a predicate and a list as arguments, and returns the list sorted according to the predicate.",
+    "task_number": 28
+  }
+]

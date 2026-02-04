@@ -1,0 +1,38 @@
+[
+  {
+    "name": "how_many_are_we",
+    "prototype": null,
+    "description": "Write a script, named how_many_are_we.sh that displays, given a city as an argument, the number of students in the city (the city is case-insensitive).",
+    "task_number": 1
+  },
+  {
+    "name": "find_sh",
+    "prototype": null,
+    "description": "Write a script, named find_sh.sh that searches for each file name ending by .sh within the current folder and each of its subfolders and displays them.",
+    "task_number": 2
+  },
+  {
+    "name": "count_files",
+    "prototype": null,
+    "description": "Write a script, named count_files.sh that displays the number of regular files in the current folder and each of its subfolders.",
+    "task_number": 3
+  },
+  {
+    "name": "gotta_catch_them_all",
+    "prototype": null,
+    "description": "Write a script, named gotta_catch_them_all.sh that displays the number of people whose last names start with the string given in argument to your script. Use the passwd (from the resources folder).",
+    "task_number": 4
+  },
+  {
+    "name": "skip",
+    "prototype": null,
+    "description": "Write a script, named skip.sh that takes the output of a command and then, starting with the first one, only displays one row out of two",
+    "task_number": 6
+  },
+  {
+    "name": "r_tacpy",
+    "prototype": null,
+    "description": "Write a script, named r_tacpy.sh, that retrieves the output of the command cat passwd, and then, starting with the second one, displays one line out of two by reversing each letter of each login. They will be sorted in reverse order, and will only save logins between MY_LINE1 and MY_LINE2, separated by a comma, and ending with a point and a line break.",
+    "task_number": 7
+  }
+]

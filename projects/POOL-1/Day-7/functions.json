@@ -1,0 +1,14 @@
+[
+  {
+    "name": "my_strcat",
+    "prototype": "char *my_strcat(char *dest, char const *src);",
+    "description": "Write a function that concatenates two strings.",
+    "task_number": 1
+  },
+  {
+    "name": "my_strncat",
+    "prototype": "char *my_strncat(char *dest, char const *src, int nb);",
+    "description": "Write a function that concatenates n characters of the src string to the end of the dest string.",
+    "task_number": 2
+  }
+]

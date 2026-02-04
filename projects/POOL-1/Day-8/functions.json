@@ -1,0 +1,32 @@
+[
+  {
+    "name": "my_strdup",
+    "prototype": "char *my_strdup(char const *src);",
+    "description": "Write a function that allocates memory and copies the string given as argument in it.",
+    "task_number": 1
+  },
+  {
+    "name": "concat_params",
+    "prototype": "char *concat_params(int argc, char **argv);",
+    "description": "Write a function that turns the command-line given arguments into a single string. Arguments are to be separated by ‘ ’.",
+    "task_number": 2
+  },
+  {
+    "name": "my_show_word_array",
+    "prototype": "int my_show_word_array(char * const *tab);",
+    "description": "Write a function that displays the content of an array of words. There must be one word per line, and each word must end with ‘ ’, including the last one",
+    "task_number": 3
+  },
+  {
+    "name": "my_str_to_word_array",
+    "prototype": "char **my_str_to_word_array(char const *str);",
+    "description": "Write a function that splits a string into words. Separators will all be non-alphanumeric characters. The function returns an array in which each cell contains the address of a string (representing a word). The last cell must be null to terminate the array",
+    "task_number": 4
+  },
+  {
+    "name": "convert_base",
+    "prototype": "char *convert_base(char const *nbr, char const *base_from, char const *base_to);",
+    "description": "Write a function that returns the result from the nbr string conversion (expressed in a base_from radix to a base_to radix), in the form of a newly, and sufficiently, allocated string. The number, represented by nbr, fits in an integer",
+    "task_number": 5
+  }
+]

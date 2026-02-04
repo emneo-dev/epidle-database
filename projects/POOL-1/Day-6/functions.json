@@ -1,0 +1,110 @@
+[
+  {
+    "name": "my_strcpy",
+    "prototype": "char *my_strcpy(char *dest, char const *src);",
+    "description": "Write a function that copies a string into another. The destination string will already have enough memory to copy the source string.",
+    "task_number": 1
+  },
+  {
+    "name": "my_strncpy",
+    "prototype": "char *my_strncpy(char *dest, char const *src, int n);",
+    "description": "Write a function that copies n characters from a string into another. The destination string will already have enough memory to contain n characters.",
+    "task_number": 2
+  },
+  {
+    "name": "my_revstr",
+    "prototype": "char *my_revstr(char *str);",
+    "description": "Write a function that reverses a string.",
+    "task_number": 3
+  },
+  {
+    "name": "my_strstr",
+    "prototype": "char *my_strstr(char *str, char const *to_find);",
+    "description": "Reproduce the behavior of the strstr function",
+    "task_number": 5
+  },
+  {
+    "name": "my_strcmp",
+    "prototype": "int my_strcmp(char const *s1, char const *s2);",
+    "description": "Reproduce the behavior of the strcmp function.",
+    "task_number": 6
+  },
+  {
+    "name": "my_strncmp",
+    "prototype": "int my_strncmp(char const *s1, char const *s2, int n);",
+    "description": "Reproduce the behavior of the strncmp function.",
+    "task_number": 7
+  },
+  {
+    "name": "my_strupcase",
+    "prototype": "char *my_strupcase(char *str);",
+    "description": "Write a function that puts every letter of every word in it in uppercase.",
+    "task_number": 8
+  },
+  {
+    "name": "my_strlowcase",
+    "prototype": "char *my_strlowcase(char *str);",
+    "description": "Write a function that puts every letter of every word in it in lowercase.",
+    "task_number": 9
+  },
+  {
+    "name": "my_strcapitalize",
+    "prototype": "char *my_strcapitalize(char *str);",
+    "description": "Write a function that capitalizes the first letter of each word.",
+    "task_number": 10
+  },
+  {
+    "name": "my_str_isalpha",
+    "prototype": "int my_str_isalpha(char const *str);",
+    "description": "Write a function that returns 1 if the string passed as parameter only contains alphabetical characters and 0 if the string contains another type of character",
+    "task_number": 12
+  },
+  {
+    "name": "my_str_isnum",
+    "prototype": "int my_str_isnum(char const *str);",
+    "description": "Write a function that returns 1 if the string passed as parameter only contains digits and 0 otherwise.",
+    "task_number": 13
+  },
+  {
+    "name": "my_str_islower",
+    "prototype": "int my_str_islower(char const *str);",
+    "description": "Write a function that returns 1 if the string passed as parameter only contains lowercase alphabetical characters and 0 otherwise.",
+    "task_number": 14
+  },
+  {
+    "name": "my_str_isupper",
+    "prototype": "int my_str_isupper(char const *str);",
+    "description": "Write a function that returns 1 if the string passed as parameter only contains uppercase alphabetical characters and 0 otherwise.",
+    "task_number": 15
+  },
+  {
+    "name": "my_str_isprintable",
+    "prototype": "int my_str_isprintable(char const *str);",
+    "description": "Write a function that returns 1 if the string passed as parameter only contains printable characters and 0 otherwise.",
+    "task_number": 16
+  },
+  {
+    "name": "my_putnbr_base",
+    "prototype": "int my_putnbr_base(int nbr, char const *base);",
+    "description": "Write a function that converts and displays a decimal number into a number in a given base. The number is given as an int and the base is provided as a string. The base contains all the symbols that can be used to print a number (for instance, 0123456789 for the decimal base, 01 for the binary base, 0123456789ABCDEF for the hexadecimal base).",
+    "task_number": 18
+  },
+  {
+    "name": "my_getnbr_base",
+    "prototype": "int my_getnbr_base(char const *str, char const *base);",
+    "description": "Write a function that converts and returns a number (provided as a string) in a given base into a decimal number. The function must deal with negative numbers, and several successive + or - before the number. If any error occurs, the function must return 0. It must be prototyped the following way:",
+    "task_number": 19
+  },
+  {
+    "name": "my_showstr",
+    "prototype": "int my_showstr(char const *str);",
+    "description": "Write a function that prints a string and returns 0. If this string contains non-printable characters, they must be printed hexadecimally (in lowercase letters) with a backslash before the given value.",
+    "task_number": 20
+  },
+  {
+    "name": "my_showmem",
+    "prototype": "int my_showmem(char const *str, int size);",
+    "description": "Write a function that prints a memory dump and return 0.",
+    "task_number": 21
+  }
+]

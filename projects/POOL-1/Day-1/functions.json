@@ -1,0 +1,26 @@
+[
+  {
+    "name": "midLS",
+    "prototype": null,
+    "description": "Write in delivery/task03/midLS, a command that lists the current repository’s files and directories (without hidden files, ellipses, or files starting with a dot) sorted alphabetically.",
+    "task_number": 3
+  },
+  {
+    "name": "mr_clean",
+    "prototype": null,
+    "description": "Write a file named mr_clean - stored at the root of the repository of the day - a command to find and delete every file from the current directory and all subdirectories which end by ~ or which start and end by #.",
+    "task_number": 5
+  },
+  {
+    "name": "push_that",
+    "prototype": null,
+    "description": "Write a shell script (using bash as shell) named push_that.sh at the root of your repository. The script must add all of the current folder’s files and push them to the repository. The script must take a commit message as parameter and should be able to handle simple problems and still push your files.",
+    "task_number": 6
+  },
+  {
+    "name": "tar",
+    "prototype": null,
+    "description": "Create a compressed (with Gzip) tarball of the content of the previous task’s directory",
+    "task_number": 8
+  }
+]

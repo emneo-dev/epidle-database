@@ -1,0 +1,14 @@
+[
+  {
+    "name": "my_sort_word_array",
+    "prototype": "int my_sort_word_array(char **tab);",
+    "description": "Write a function that, using ascii order, sorts the words received via my_str_to_word_array. The sort should be executed by switching the array’s pointers.",
+    "task_number": 3
+  },
+  {
+    "name": "my_advanced_sort_word_array",
+    "prototype": "int my_advanced_sort_word_array(char **tab, int (*cmp) (char const *, char const *));",
+    "description": "Write a function that sorts the words depending on the return value of the function passed as parameter, received via my_str_to_word_array. The sort should be executed by switching the array’s pointers.",
+    "task_number": 4
+  }
+]

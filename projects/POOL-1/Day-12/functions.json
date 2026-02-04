@@ -1,0 +1,14 @@
+[
+  {
+    "name": "cat",
+    "prototype": null,
+    "description": "Write a program called cat, which executes the same tasks as your system’s cat command. You do not have to handle options. There is an unlimited number of files given as parameter. cat without parameters must be supported.",
+    "task_number": 1
+  },
+  {
+    "name": "grep",
+    "prototype": null,
+    "description": "Write a program called grep, which executes the same tasks as your system’s grep command. You do not have to handle options. There is an unlimited number of files given as parameter",
+    "task_number": 3
+  }
+]

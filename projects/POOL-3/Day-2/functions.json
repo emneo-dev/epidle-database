@@ -1,0 +1,74 @@
+[
+  {
+    "name": "my_elem",
+    "prototype": "my_elem :: Eq a = > a -> [a] -> Bool",
+    "description": "A function which takes an argument which implements equality and a list of the same type, and returns True if the argument is present in the list, False otherwise",
+    "task_number": 1
+  },
+  {
+    "name": "safe_div",
+    "prototype": "safe_div :: Int -> Int -> Maybe Int",
+    "description": "A function which takes two Ints as arguments, and returns Nothing if it’s a division by zero, or Just N (with N the result of the division) if it’s no",
+    "task_number": 2
+  },
+  {
+    "name": "safe_nth",
+    "prototype": "safe_nth :: [a] -> Int -> Maybe a",
+    "description": "A function similar to the function myNth, but which returns Nothing in case of an error, or Just N (with N the result) in case of success",
+    "task_number": 3
+  },
+  {
+    "name": "safe_succ",
+    "prototype": "safe_succ :: Maybe Int -> Maybe Int",
+    "description": "A function which takes a Maybe Int and returns its successor wrapped in a maybe",
+    "task_number": 4
+  },
+  {
+    "name": "my_lookup",
+    "prototype": "my_lookup :: Eq a = > a -> [( a , b ) ] -> Maybe b",
+    "description": "A function which takes an argument which implements equality and a list of tuples. Looks successively if the first element of each tuple is equal to the first argument. If a match is found, the second element of the tuple is returned wrapped in a Maybe. Otherwise, Nothing is returned.",
+    "task_number": 5
+  },
+  {
+    "name": "maybe_do",
+    "prototype": "maybe_do :: (a -> b -> c) -> Maybe a -> Maybe b -> Maybe c",
+    "description": "A functions which takes a function as argument and two more arguments wrapped in Maybes, and returns Nothing if any of the arguments are Nothing, or Just n (with n the result of the function applied to the arguments) otherwise.",
+    "task_number": 6
+  },
+  {
+    "name": "read_int",
+    "prototype": "read_int :: [Char] -> Maybe Int",
+    "description": "A function which takes a string as argument and returns Nothing if its not a parsable number, or an Int wrapped in a maybe otherwise",
+    "task_number": 7
+  },
+  {
+    "name": "get_line_length",
+    "prototype": "get_line_length :: IO Int",
+    "description": "A function which reads a line from the standard input and returns its length as a IO Int.",
+    "task_number": 8
+  },
+  {
+    "name": "print_and_get_length",
+    "prototype": "print_and_get_length :: String -> IO In",
+    "description": "A function which takes a string as argument, prints it on the standard output followed by a carriage return, and returns its length in the IO monad.",
+    "task_number": 9
+  },
+  {
+    "name": "print_box",
+    "prototype": "print_box :: Int -> IO ()",
+    "description": "A function which takes an Int (N) as argument, and draw a box of height N and width N*2 on the standard output (see example bellow). If N is zero or less, it does nothing.",
+    "task_number": 10
+  },
+  {
+    "name": "concat_lines",
+    "prototype": "concat_lines :: Int -> IO String",
+    "description": "A function which takes an Int (N) as argument, read N lines from the standard input and returns a concatenation of these lines in the IO monad. If N is 0 or negative, an empty string is returned.",
+    "task_number": 11
+  },
+  {
+    "name": "get_int",
+    "prototype": "get_int :: IO (Maybe Int)",
+    "description": "A function which reads a line from the standard input and returns a Maybe Int in the IO monad.",
+    "task_number": 12
+  }
+]

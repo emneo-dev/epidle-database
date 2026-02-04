@@ -1,0 +1,68 @@
+[
+  {
+    "name": "my_params_to_list",
+    "prototype": "linked_list_t *my_params_to_list(int ac, char * const * av);",
+    "description": "Write a function named my_params_to_list that creates a new list from the command line arguments. The address of the list’s first node is returned.",
+    "task_number": 1
+  },
+  {
+    "name": "my_list_size",
+    "prototype": "int my_list_size(linked_list_t const *begin);",
+    "description": "Write a function called my_list_size that returns the number of elements on the list.",
+    "task_number": 2
+  },
+  {
+    "name": "my_rev_list",
+    "prototype": "void my_rev_list(linked_list_t **begin);",
+    "description": "Write a function named my_rev_list that reverses the order of the list’s elements",
+    "task_number": 3
+  },
+  {
+    "name": "my_apply_on_nodes",
+    "prototype": "int my_apply_on_nodes(linked_list_t *begin, int (*f)(void *));",
+    "description": "Write a function named my_apply_on_nodes that applies a function, given as argument, to the data of each node on the list.",
+    "task_number": 4
+  },
+  {
+    "name": "my_apply_on_matching_nodes",
+    "prototype": "int my_apply_on_matching_nodes(linked_list_t *begin, int (*f)() , void const *data_ref, int (*cmp)());",
+    "description": "Write a function named my_apply_on_matching_nodes that applies a function, given as argument, to the data of the nodes on the list equal to the data_ref given as argument.",
+    "task_number": 5
+  },
+  {
+    "name": "my_find_node",
+    "prototype": "linked_list_t *my_find_node(linked_list_t const *begin, void const *data_ref, int (*cmp)());",
+    "description": "Write a function named my_find_node that returns the address of the first node, which contains data equal to the reference data",
+    "task_number": 6
+  },
+  {
+    "name": "my_delete_nodes",
+    "prototype": "int my_delete_nodes(linked_list_t **begin, void const * data_ref, int (*cmp)());",
+    "description": "Write a function named my_delete_nodes that removes all nodes containing data equal to the reference data",
+    "task_number": 7
+  },
+  {
+    "name": "my_concat_list",
+    "prototype": "void my_concat_list(linked_list_t **begin1 , linked_list_t *begin2);",
+    "description": "Write a function named my_concat_list that puts the elements of a begin2 list at the end of a begin1 list.",
+    "task_number": 8
+  },
+  {
+    "name": "my_sort_list",
+    "prototype": "void my_sort_list(linked_list_t **begin, int (*cmp)());",
+    "description": "Write a function named my_sort_list that sorts a list in ascending order by comparing data, nodeto-node, with a comparison function.",
+    "task_number": 9
+  },
+  {
+    "name": "my_add_in_sorted_list",
+    "prototype": "void my_add_in_sorted_list(linked_list_t **begin, void * data, int (*cmp)());",
+    "description": "Write a function named my_add_in_sorted_list that creates a new element and inserts it into an sorted list, so that the list remains sorted in ascending order",
+    "task_number": 10
+  },
+  {
+    "name": "my_merge",
+    "prototype": "void my_merge(linked_list_t **begin1, linked_list_t *begin2, int (*cmp)());",
+    "description": "Write a function named my_merge that integrates the elements of a sorted list, begin2, into another sorted list, begin1, so that begin1 remains sorted in ascending order.",
+    "task_number": 11
+  }
+]
