@@ -1,0 +1,5 @@
+{
+    "name": "C-F8",
+    "description": "Comments inside a function",
+    "type": "MINOR"
+}
