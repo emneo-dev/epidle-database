@@ -30,5 +30,5 @@ Note that:
 **Epidle project's codes** are stored in the `examples` folder of their respective project folder.
 If no `examples` folder exists, create one.
 
-Inside that folder, create `.c` or `.cpp` files.
+Inside that folder, you can create a `.c` or `.cpp` file.
 Each file represents one **Epidle project's code** that can appear during the fourth challenge.
