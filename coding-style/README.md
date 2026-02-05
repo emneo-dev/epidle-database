@@ -19,7 +19,7 @@ And there you go, you just created an **Epidle coding style error**, it's that e
 ## What's an **Epidle coding style's code**?
 
 The third challenge of Epidle is to identify which coding style is present in a given code.
-The code must be only have a single coding style, and consist of only one function/method.
+The code must only have one single coding style, and consist of only one function/method.
 
 Note that:
 - A coding style can have multiple codes representing it
